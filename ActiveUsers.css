@@ -1,0 +1,75 @@
+/* Tabs Styling */
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.tabs button.active {
+    color: #28a745;
+}
+
+.tabs button:hover:not(.active) {
+    color: #218838;
+}
+
+.tabs span {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Table Section Styling */
+.table-section {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.table-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-section table th,
+.table-section table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-section table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+.view-details {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.view-details:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,190 @@
+/* ActiveUsers.css */
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active-users {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+.top-bar .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav-main .logo {
+  display: flex;
+  align-items: center;
+}
+.nav-main .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+.nav-main .search-bar {
+  display: flex;
+}
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li.active {
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+.user-details {
+  padding: 20px;
+  flex: 1;
+}
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.details-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.action-buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.action-buttons .delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+.products table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.products table th, .products table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.newsletter input {
+  padding: 5px;
+  margin-right: 5px;
+}
+.newsletter button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.info-section input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.action-buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.action-buttons button.delete {
+  background-color: #dc3545;
+}
+.action-buttons button:hover {
+  opacity: 0.9;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}

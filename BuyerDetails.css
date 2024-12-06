@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buyer-details {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+.top-bar .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav-main .logo {
+  display: flex;
+  align-items: center;
+}
+.nav-main .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar ul li.active {
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+.user-details {
+  padding: 20px;
+  flex: 1;
+}
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.products {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Table Styles */
+.products table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.products table th, .products table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.products table th {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+.products table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+.products a {
+  color: #28a745; /* Green color */
+  text-decoration: none; /* Removes underline */
+}
+
+.products a:hover {
+  text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}

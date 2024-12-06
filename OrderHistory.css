@@ -1,0 +1,133 @@
+    /* Container styling */
+    .order-history {
+        display: flex;
+        flex-direction: column;
+        background-color: #f7f7f7;
+    }
+    
+    /* Sidebar styling */
+    .sidebar {
+        width: 20%;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .sidebar nav ul li {
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #333;
+    }
+    
+    .sidebar nav ul li.active {
+        font-weight: bold;
+        color: #28a745;
+    }
+    
+    /* Order details section */
+    .order-details {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .order-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .order-header h2 {
+        font-size: 24px;
+        color: #333;
+    }
+    
+    .order-header .back-to-list {
+        font-size: 14px;
+        color: #28a745;
+        text-decoration: none;
+    }
+    
+    .order-header .back-to-list:hover {
+        text-decoration: underline;
+    }
+    
+    /* Order summary styling */
+    .order-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .order-info h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .order-info p {
+        font-size: 14px;
+        color: #555;
+    }
+    
+    .order-info .total {
+        font-weight: bold;
+        font-size: 16px;
+        color: #28a745;
+    }
+    
+    .order-status {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    }
+
+    
+    .step {
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    .step.completed {
+        background-color: #28a745;
+        color: #fff;
+    }
+    
+    .step.active {
+        border-color: #28a745;
+    }
+    
+    /* Product table */
+    .product-list {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    .product-list th, .product-list td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+    
+    .product-list th {
+        background-color: #f4f4f4;
+    }
+    
+    .product-list td {
+        font-size: 14px;
+    }
+  

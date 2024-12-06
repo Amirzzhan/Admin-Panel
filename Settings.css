@@ -1,0 +1,97 @@
+    /* General Settings Styling */
+    .settings-page {
+        font-family: "Poppins", sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Main Content */
+    .main-content {
+        display: flex;
+        gap: 20px;
+        margin: 20px;
+    }
+    
+    /* Sidebar */
+    .sidebar {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sidebar li {
+        padding: 10px 0;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .sidebar li.active {
+        color: #28a745;
+        font-weight: bold;
+    }
+    
+    .sidebar li:hover {
+        color: #28a745;
+        cursor: pointer;
+    }
+    
+    /* Settings Content */
+    .settings-content {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .settings-section {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .settings-section h3 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    .save-button {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .save-button:hover {
+        background-color: #218838;
+    }
